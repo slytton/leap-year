@@ -10,6 +10,9 @@ describe("Leap Year", function(){
   it("should return true for 4", function(){
     expect(code.leapYear(4)).to.equal(true);
   });
+  it("should return true for 1600", function(){
+    expect(code.leapYear(1600)).to.equal(true);
+  });
 
   //Should be false
   it("should return false for 1700", function(){
